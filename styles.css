@@ -3,7 +3,8 @@ body {
 }
 .titulo{
 position:sticky;
-top: 50px
+top: 0px;
+border: 10px solid black;
 }
 
 .texto{
