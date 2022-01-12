@@ -34,4 +34,5 @@ border: 10px solid black;
 .comida{
   width:200px;
   height:150px;
+  position: absolute;
 }
