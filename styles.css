@@ -3,7 +3,7 @@ body {
 }
 .titulo{
 position:sticky;
-border-style: double;
+top: 50px
 }
 
 .texto{
