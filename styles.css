@@ -13,25 +13,30 @@ border: 10px solid black;
   height:350px;
   border: 4px solid black;
   display: grid;
-  grid-template-areas:
-   "home home ." 
-   "nosotros carta carta"
-   "contacto contacto
+  grid-template-areas: "home home home"
+                       "nosotros carta carta"
+                       "contacto carta carta";
+}
 
-  
+.grid { 
+column-gap: 50px; 
+ row-gap: 10px; 
  }
+                  
 
 .home{
   background-color:lightblue;
   border: 2px solid black;
   margin: 2px;
- 
+  grid-area: home;
 }
+
 
 .nosotros{
   background-color:bisque;
   border: 2px solid black;
   margin: 2px;
+  grid-area: nosotros;
    
 }
 
@@ -39,6 +44,8 @@ border: 10px solid black;
   background-color: darksalmon;
   border: 2px solid black;
   margin: 2px;
+  grid-area: carta;
+
   
  }
 
@@ -46,6 +53,7 @@ border: 10px solid black;
   background-color: goldenrod;
   border: 2px solid black;
   margin:2px;
+  grid-area:contacto
   
  }
 
